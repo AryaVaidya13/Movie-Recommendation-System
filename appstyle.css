@@ -1,0 +1,32 @@
+st.markdown(
+    """
+    <style>
+        [data-testid="stMarkdownContainer"]{
+            color: #3b024f}
+        #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.stAppViewBlockContainer.block-container.st-emotion-cache-13ln4jf.ea3mdgi5 > div > div > div > div:nth-child(3) > div > div > div > div.st-ak.st-al.st-bd.st-be.st-bf.st-as.st-bg.st-bh.st-ar.st-bi.st-bj.st-bk.st-bl{
+        background-color:rgb(17, 8, 1);
+        }
+        [data-testid="stText"]{
+        colour: rgb(17, 8, 1);
+        }
+        div.stButton > button {
+            background-color:rgb(247, 245, 248);
+            color: #ffffff;
+            border-radius: 100px;
+            border-color: #3b024f;
+        }
+        div.stButton > button:hover {
+            background-color:rgb(122, 0, 193);
+            color: #cfcbd1;
+            border-color: #cfcbd1;
+        }
+        h1{
+            color: #3b024f;
+            }
+        .stApp{
+            background-color: #cb61f2;
+            }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
